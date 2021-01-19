@@ -11,7 +11,7 @@ time = datetime.now()
 current_time = time.strftime('%H:%M:%S')
 
 # Bot
-TOKEN = 'NzcyNjk3MjczMTY3MjQ5NDI4.X5-caQ.ANIjOzMEipCGjZJj46V1kQH8a-k'
+TOKEN = 'TOKEN HERE'
 
 intents = discord.Intents(messages = True, guilds = True, reactions = True, members = True, presences = True)
 client = commands.Bot(command_prefix = '.', intents = intents)
